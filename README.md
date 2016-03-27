@@ -20,8 +20,8 @@ Drag and drop opencv2.framework in the directory frameworks :
 * check Copy the items
 * check create groups 
 * check add to targets "project"
-* In ViewController.h add the line : #import <opencv2/opencv.hpp>
-* Don't forget to rename ViewController.m in ViewController.mm !
+* in ViewController.h add the line : #import <opencv2/opencv.hpp>
+* don't forget to rename ViewController.m in ViewController.mm !
 
 ![import_frameworks](screenshots/import_frameworks.png)
 ![lenna_greyscale](screenshots/lenna_greyscale.png)
