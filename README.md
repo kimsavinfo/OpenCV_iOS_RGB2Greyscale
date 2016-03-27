@@ -8,19 +8,20 @@
 
 # How do I import openCV iOS ?
 
-## Go to Project > Build Phases > Link Binary With Libraries
+## Link Libraries
+Go to Project > Build Phases > Link Binary With Libraries
 * AssetsLibrary.framework
 * CoreGraphics framework
 * Foundation.framework
 * UIKit.framework
 
-## Drag and drop opencv2.framework in the directory frameworks :
+## Import openCV 2
+Drag and drop opencv2.framework in the directory frameworks :
 * check Copy the items
 * check create groups 
 * check add to targets "project"
-
-## In ViewController.h add the line : #import <opencv2/opencv.hpp>
-Don't forget to rename ViewController.m in ViewController.mm
+* In ViewController.h add the line : #import <opencv2/opencv.hpp>
+* Don't forget to rename ViewController.m in ViewController.mm !
 
 ![import_frameworks](screenshots/import_frameworks.png)
 ![lenna_greyscale](screenshots/lenna_greyscale.png)
