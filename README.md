@@ -2,9 +2,9 @@
 HOW TO : import openCV iOS and show the RGB image in black and white 
 (rf [openCV](http://docs.opencv.org/3.1.0/))
 
-![init_view](screenshots/init_view.PNG)
+![init_view](screenshots/init_view.png)
 
-![lenna_rgb](screenshots/lenna_rgb.PNG)
+![lenna_rgb](screenshots/lenna_rgb.png)
 
 ## How do I import openCV iOS ?
 
@@ -22,8 +22,8 @@ HOW TO : import openCV iOS and show the RGB image in black and white
 3. In ViewController.h add the line : #import <opencv2/opencv.hpp>
 Don't forget to rename ViewController.m in ViewController.mm
 
-![import_frameworks](screenshots/import_frameworks.PNG)
-![lenna_greyscale](screenshots/lenna_greyscale.PNG)
+![import_frameworks](screenshots/import_frameworks.png)
+![lenna_greyscale](screenshots/lenna_greyscale.png)
 
 ### Versions
 
