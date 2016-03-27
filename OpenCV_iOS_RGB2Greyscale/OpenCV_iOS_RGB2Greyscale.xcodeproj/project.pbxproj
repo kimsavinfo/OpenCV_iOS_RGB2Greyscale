@@ -9,18 +9,23 @@
 /* Begin PBXBuildFile section */
 		9546D138A7558BF73198DE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9546D08D38938B655224CDD0 /* Main.storyboard */; };
 		9546D2D879750A935292C6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9546DA6FF3FDEFF95B702B95 /* LaunchScreen.storyboard */; };
-		9546D8916923C52B521CCC97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546D2091F660E7EEFF56D11 /* ViewController.m */; };
+		9546D8916923C52B521CCC97 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9546D2091F660E7EEFF56D11 /* ViewController.mm */; };
 		9546DA94EDC1C641AC8C4C27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9546DB5DA84BAF3096463C82 /* Info.plist */; };
 		9546DB1EC01B8533E28AA9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9546D82154D44A03FF48FC25 /* Assets.xcassets */; };
 		9546DB6AB0C0CD810BBA4958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546D47AB8992584D558C35C /* main.m */; };
 		9546DC572CDEC3FEB7DF5270 /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 9546D3642C949A9A263D8ABF /* Lenna.png */; };
 		9546DD01DB38F4A92E044EEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546DCE8A5D5869FB0DC4D2F /* AppDelegate.m */; };
+		B67AB5F61CA7DC7500D9FC11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67AB5F51CA7DC7500D9FC11 /* UIKit.framework */; };
+		B67AB5F81CA7DC9C00D9FC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67AB5F71CA7DC9C00D9FC11 /* Foundation.framework */; };
+		B67AB5FA1CA7DCBF00D9FC11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67AB5F91CA7DCBE00D9FC11 /* CoreGraphics.framework */; };
+		B67AB5FD1CA7DD8500D9FC11 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67AB5FC1CA7DD8500D9FC11 /* opencv2.framework */; };
+		B69E7D231CA7DF430038FEDA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69E7D221CA7DF430038FEDA /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9546D04E1AC52DBA8C6B5022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9546D0F7DBE4A112FA1562E9 /* OpenCV_iOS_RGB2Greyscale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_iOS_RGB2Greyscale.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9546D2091F660E7EEFF56D11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9546D2091F660E7EEFF56D11 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		9546D3642C949A9A263D8ABF /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenna.png; sourceTree = "<group>"; };
 		9546D47AB8992584D558C35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9546D82154D44A03FF48FC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +34,11 @@
 		9546DC5563C709E85653C12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9546DCE8A5D5869FB0DC4D2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9546DD9D7B491F05FB864445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67AB5F51CA7DC7500D9FC11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B67AB5F71CA7DC9C00D9FC11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B67AB5F91CA7DCBE00D9FC11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B67AB5FC1CA7DD8500D9FC11 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		B69E7D221CA7DF430038FEDA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69E7D231CA7DF430038FEDA /* AssetsLibrary.framework in Frameworks */,
+				B67AB5FA1CA7DCBF00D9FC11 /* CoreGraphics.framework in Frameworks */,
+				B67AB5F81CA7DC9C00D9FC11 /* Foundation.framework in Frameworks */,
+				B67AB5FD1CA7DD8500D9FC11 /* opencv2.framework in Frameworks */,
+				B67AB5F61CA7DC7500D9FC11 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,12 +72,12 @@
 				9546DB5DA84BAF3096463C82 /* Info.plist */,
 				9546D82154D44A03FF48FC25 /* Assets.xcassets */,
 				9546DA6FF3FDEFF95B702B95 /* LaunchScreen.storyboard */,
-				9546D1D0F3AE5DC4BDEFD1FA /* Supporting Files */,
+				9546D08D38938B655224CDD0 /* Main.storyboard */,
 				9546DC5563C709E85653C12B /* AppDelegate.h */,
 				9546DCE8A5D5869FB0DC4D2F /* AppDelegate.m */,
-				9546D08D38938B655224CDD0 /* Main.storyboard */,
 				9546D04E1AC52DBA8C6B5022 /* ViewController.h */,
-				9546D2091F660E7EEFF56D11 /* ViewController.m */,
+				9546D2091F660E7EEFF56D11 /* ViewController.mm */,
+				9546D1D0F3AE5DC4BDEFD1FA /* Supporting Files */,
 			);
 			path = OpenCV_iOS_RGB2Greyscale;
 			sourceTree = "<group>";
@@ -78,9 +93,22 @@
 		9546DD252C08C906D4813DBE = {
 			isa = PBXGroup;
 			children = (
+				B69E7D221CA7DF430038FEDA /* AssetsLibrary.framework */,
+				B67AB5FB1CA7DCDE00D9FC11 /* frameworks */,
 				9546DC61253742B49AB65083 /* Products */,
 				9546D392D3282E7BB1B5AA46 /* OpenCV_iOS_RGB2Greyscale */,
 			);
+			sourceTree = "<group>";
+		};
+		B67AB5FB1CA7DCDE00D9FC11 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B67AB5FC1CA7DD8500D9FC11 /* opencv2.framework */,
+				B67AB5F91CA7DCBE00D9FC11 /* CoreGraphics.framework */,
+				B67AB5F71CA7DC9C00D9FC11 /* Foundation.framework */,
+				B67AB5F51CA7DC7500D9FC11 /* UIKit.framework */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +178,7 @@
 			files = (
 				9546DB6AB0C0CD810BBA4958 /* main.m in Sources */,
 				9546DD01DB38F4A92E044EEB /* AppDelegate.m in Sources */,
-				9546D8916923C52B521CCC97 /* ViewController.m in Sources */,
+				9546D8916923C52B521CCC97 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +253,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OpenCV_iOS_RGB2Greyscale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.savaroche.kim.OpenCV-iOS-RGB2Greyscale";
@@ -275,6 +307,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OpenCV_iOS_RGB2Greyscale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.savaroche.kim.OpenCV-iOS-RGB2Greyscale";
@@ -301,6 +337,7 @@
 				9546D891CB21AA8FEEDF1714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

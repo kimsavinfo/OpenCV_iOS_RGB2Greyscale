@@ -8,7 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import <opencv2/opencv.hpp>
 
 @interface ViewController : UIViewController {
     UIImage *imageRGB;
@@ -16,5 +16,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+- (cv::Mat)cvMatFromUIImage:(UIImage *)image;
+- (cv::Mat)cvMatGrayFromUIImage:(UIImage *)image;
+- (UIImage *)UIImageFromCVMat:(cv::Mat)cvMat;
 
 @end
